@@ -45,7 +45,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-Essa é aplicação Front-End do **Senac Stock**, que é um projeto de controle de estoque avançado e pronto para um usuário final. Esse projeto é do curso de nível técnico de Informática para Internet do centro de ensino Serviço Nacional de Aprendizagem ao Comércio (Senac). Objetivo desse projeto é para que o aluno possa dominar a biblioteca React Js, responsividade, paginação por demanda, relatórios avançados, gráficos, roteamento de páginas e tudo que o mercado de trabalho exige de conhecimento para um desenvolvedor Front-End. Essa aplicação possui uma Rest API onde é realizada toda regra de negócio e persistência na base de dados (O nas evidências abaixo mostra o Front-End se comunicando com o Back-End). 
+Essa é aplicação Front-End do **Senac Stock**, que é um projeto de controle de estoque avançado e pronto para um usuário final. Esse projeto é do curso de nível técnico de Informática para Internet do centro de ensino Serviço Nacional de Aprendizagem ao Comércio (Senac). Objetivo desse projeto é para que o aluno possa dominar a biblioteca React Js, responsividade, paginação por demanda, relatórios avançados, gráficos, roteamento de páginas e tudo que o mercado de trabalho exige de conhecimento para um desenvolvedor Front-End. Essa aplicação possui uma Rest API https://github.com/gabrielfilipy/senacStock-api/tree/main/src/main/java/com/senac/api onde é realizada toda regra de negócio e persistência na base de dados (O nas evidências abaixo mostra o Front-End se comunicando com o Back-End). 
 
 **Tela principal**:
 
