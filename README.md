@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -45,7 +44,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-=======
+
 Essa é aplicação Front-End do **Senac Stock**, que é um projeto de controle de estoque avançado e pronto para um usuário final. Esse projeto é do curso de nível técnico de Informática para Internet do centro de ensino Serviço Nacional de Aprendizagem ao Comércio (Senac). Objetivo desse projeto é para que o aluno possa dominar a biblioteca React Js, responsividade, paginação por demanda, relatórios avançados, gráficos, roteamento de páginas e tudo que o mercado de trabalho exige de conhecimento para um desenvolvedor Front-End. Essa aplicação possui uma Rest API onde é realizada toda regra de negócio e persistência na base de dados (O nas evidências abaixo mostra o Front-End se comunicando com o Back-End). 
 
 **Tela principal**:
@@ -98,6 +97,3 @@ Produtos cadastrados. Aqui é possível bloquear/desbloquear produto para que el
 
 ![016](https://user-images.githubusercontent.com/73559672/229547142-ec1b36b0-7c38-412d-9893-820679d76129.png)
 
-
-
->>>>>>> 3d8fc06a123df717af3ab9422814b16ca42553fc
