@@ -1,0 +1,49 @@
+.col-nome-prod {
+    width: 42%;
+}
+
+.col-qtd-prod {
+    width: 6%;
+}
+
+.col-dt-cadastro-prod {
+    width: 15%;
+}
+
+.col-dt-venc-prod {
+    width: 15%;
+}
+
+.col-valor-prod {
+    width: 10.2%;
+}
+
+.col-acoes-prod {
+    width: 10%;
+    text-align: c;
+    padding-left: 0 !important;
+}
+
+.gutter-row-nome-prod {
+    width: 42.5%;
+}
+
+.gutter-row-qtd-prod {
+    width: 6%;
+}
+
+.gutter-row-dt-cadastro-prod {
+    width: 15%;
+}
+
+.gutter-row-dt-venc-prod {
+    width: 15%;
+}
+
+.gutter-row-valor-prod {
+    width: 10%;
+}
+
+.gutter-row-acoes-prod {
+    width: 24%;
+}

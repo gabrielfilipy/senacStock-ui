@@ -1,0 +1,48 @@
+.col-id-produto {
+    width: 20.2%;
+}
+
+.col-nome-produto {
+    width: 59%;
+}
+
+.col-quantidade-produto {
+    width: 10%;
+}
+
+.col-acoes-produto {
+    width: 10%;
+}
+
+.btnRemoverProd {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: var(--cor-primaria);
+}
+
+/*MODAL DE LISTAGEM DE RETIRADAS DO USUÁRIO*/
+.ul-modal {
+    list-style: none;
+}
+
+.li-modal {
+    width: 100px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.col-id-retirada {
+    width: 15%;
+}
+
+.col-data-retirada {
+    width: 40%;
+}
+
+.col-total-retirada {
+    width: 5%;
+}
+

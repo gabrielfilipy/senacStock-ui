@@ -1,0 +1,33 @@
+.col-matricula-usu {
+    width: 10%;
+}
+
+.col-nome-usu {
+    width: 22%;
+}
+
+.col-email-usu {
+    width: 13%;
+}
+
+.col-acoes-usu {
+    width: 5%;
+    text-align: c;
+    padding-left: 0 !important;
+}
+
+.gutter-row-matricula {
+    width: 19.5%;
+}
+
+.gutter-row-nome {
+    width: 41%;
+}
+
+.gutter-row-email {
+    width: 29%;
+}
+
+.gutter-row-acoes {
+    width: 9.4%;
+}

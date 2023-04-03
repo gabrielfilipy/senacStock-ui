@@ -1,0 +1,9 @@
+.btnCadastrar {
+    width: 100%;
+    height: 35px;
+    background-color: var(--cor-primaria);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}

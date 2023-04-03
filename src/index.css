@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+  --cor-titulo : rgb(82, 81, 81);
+  --cor-primaria : #1976d2;
+  --cor-desfazer : #777777;
+  --cor-secundaria : #d6d6d6;
+  --cor-borda : rgb(233, 231, 231);
+  --cor-perigo : #c62828;
+  --cor-bg-error : #ffcdd2;
+  --cor-font-error : #b71c1c;
+  --cor-retirar : #d8702b;
+} 
+
+.content {
+  width: 70%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.top {
+  margin-top: 30px;
+}
+
+.bottom {
+  margin-bottom: 30px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.input-form-buscar {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: none;
+}
+
+.input-form-modal {
+  width: 100%;
+  height: 35px;
+  padding-left: 8px;
+  margin-right: 5px;
+  font-size: 18px;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: none;
+}
+
+.input-form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: none;
+}
+
+.input-form:hover {
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  -webkit-box-shadow: 0px 0px 15px 1px rgb(214, 214, 214);
+  -moz-box-shadow: 0px 0px 15px 1px rgb(214, 214, 214);
+  box-shadow: 0px 0px 5px 0px rgb(214, 214, 214);
+  border:1px solid rgb(214, 214, 214);
+  outline:none; 
+}
+
+.label-input {
+  width: 100%;
+  margin-bottom: 7px;
+  margin-top: 15px;
+}
+
+.label-input label {
+  font-size: 17px;
+}
+
+.form-dialog {
+  width: 100%;
+  padding: 1px;
+}
+
+.form-dialog button {
+  width: 80px;
+}
+
+.form-dialog input{
+  margin-top: 40px;
+  width: 200px;
+}
+
+.titulo-principal {
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 28px;
+  color: var(--cor-titulo);
+}
+
+.titulo-modal {
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 20px;
+  color: var(--cor-titulo);
+}
+
+.conteudo-cadastro {
+  width: 100%;
+  padding: 1px;
+}
+
+.tabela {
+  width: 100%;
+  padding: 1px;
+}
+
+.header-tabela {
+  background: var(--cor-primaria);
+  color: white;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.colunas-tabela { 
+  list-style: none;
+  padding-left: 10px;
+  border: 1px solid var(--cor-borda);
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.funcoes {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.btnCancelar {
+  width: 100%;
+  height: 35px;
+  background-color: var(--cor-perigo);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.btnCadastrar {
+  width: 100%;
+  height: 35px;
+  background-color: var(--cor-primaria);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btnBuscar {
+  width: 100%;
+  height: 40px;
+  background-color: var(--cor-primaria);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btnRetirar {
+  width: 100%;
+  height: 35px;
+  background-color: var(--cor-retirar);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btnListar {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border: none;
+  color: var(--cor-primaria);
+  cursor: pointer;
+  font-size: 13px;
+  text-align: left;
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.btn-acao-desativo {
+  border: none;
+  color: var(--cor-perigo);
+  cursor: pointer;
+}
+
+.btn-acao-ativo {
+  border: none;
+  color: var(--cor-primaria);
+  cursor: pointer;
+}
+
+.btnVisulizar {
+  font-size: 20px;
+  border: none;
+  color: var(--cor-primaria);
+  cursor: pointer;
+  background: none;
+}
+
+.btnVoltar {
+  width: 100%;
+  height: 35px;
+  background-color: var(--cor-desfazer);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.btnCadastrar a {
+  color: white;
+  text-decoration: none;
+}
+
+.mensagem-error {
+  padding: 6px;
+  font-size: 12px;
+  margin-bottom: 15px;
+  background: var(--cor-bg-error);
+  color: var(--cor-font-error);
+}
+
+.mensagem {
+  padding: 10px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+#closeModal {
+  float: right;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 25px;
+  border-radius: 50%;
+  color: var(--cor-secundaria);
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+.mobile {
+  display: none;
+}

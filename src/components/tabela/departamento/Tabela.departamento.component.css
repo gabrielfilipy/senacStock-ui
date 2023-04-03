@@ -1,0 +1,25 @@
+.col-nome-depart {
+    width: 6%;
+}
+
+.col-descricao-depart {
+    width: 12%;
+}
+
+.col-acoes-depart {
+    width: 7%;
+    text-align: c;
+    padding-left: 0 !important;
+}
+
+.gutter-row-nome {
+    width: 24%;
+}
+
+.gutter-row-descricao {
+    width: 50%;
+}
+
+.gutter-row-acoes {
+    width: 24%;
+}

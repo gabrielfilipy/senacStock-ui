@@ -1,0 +1,11 @@
+.submenu {
+    width: 100%;
+    padding: 1px;
+    background: var(--cor-secundaria);
+    color: white;
+    list-style: none;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
